@@ -46,6 +46,7 @@ class HomeController extends Controller
          'password' => bcrypt($request['password'])
        ];
        return User::create($data);
+       return event(new BuildingMenu($user));
     }
 
     public function getUser(Request $request, $id){

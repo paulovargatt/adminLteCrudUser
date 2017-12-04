@@ -108,16 +108,7 @@ return [
     */
 
     'menu' => [
-        [
-            'text' => 'Snippets',
-            'url'  => 'home',
-            'icon' => 'code',
-        ],
-        [
-            'text' => 'Usuários',
-            'url'  => 'users',
-            'icon' => 'user',
-        ],
+      // MenuBuilder In App Service Provider
     ],
 
     /*
@@ -137,7 +128,7 @@ return [
         JeroenNoten\LaravelAdminLte\Menu\Filters\ActiveFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\SubmenuFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\ClassesFilter::class,
-        JeroenNoten\LaravelAdminLte\Menu\Filters\GateFilter::class,
+        //JeroenNoten\LaravelAdminLte\Menu\Filters\GateFilter::class,
     ],
 
     /*
